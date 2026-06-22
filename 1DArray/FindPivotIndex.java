@@ -31,6 +31,14 @@
 
         After checking the current index, add nums[i] to leftSum.
 
+        Time Complexity
+            First loop: O(n)
+            Second loop: O(n)
+
+            Overall: O(n)
+
+            Space Complexity : O(1)
+
 */        
 
 public class FindPivotIndex {
