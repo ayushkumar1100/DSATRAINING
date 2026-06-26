@@ -1,5 +1,7 @@
-
-
+/*
+Approach:
+Traversing the string using charAt()
+*/
 
 public class TraverseString{
     public static void main(String[] args){
