@@ -1,3 +1,6 @@
+
+
+
 public class TraverseString{
     public static void main(String[] args){
         String data = "TraverseMe";
