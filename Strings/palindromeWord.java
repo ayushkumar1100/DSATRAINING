@@ -1,4 +1,4 @@
-public class PalindromeNumber {
+public class PalindromeWord {
     public static void main(String[] args) {
 
         String name = "MADAM";
