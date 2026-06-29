@@ -1,3 +1,22 @@
+/*
+Lower Bound Approach: Find the first index where: arr[index] >= target
+Since the array is sorted, use binary search.
+If arr[mid] >= target, then mid can be the answer, but there might be another valid index on the left.
+Store nothing; just move left:high = mid;
+Otherwise (arr[mid] < target), the answer cannot be at mid or to its left.
+Move right:low = mid + 1;
+Continue until low == high.
+
+Upper Bound Approach: Find the first index where: arr[index] > target
+Again use binary search.
+If arr[mid] > target, mid can be the answer.
+Move left:high = mid;
+Otherwise (arr[mid] <= target) Move right:low = mid + 1;
+Return low.
+
+*/
+
+
 public class UpperLowerBound {
 
     public static int lowerBound(int[] arr, int target) {
